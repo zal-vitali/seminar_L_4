@@ -13,23 +13,20 @@ if (numbern == 1)
 
 else
 {
-    for (int i = 2; i <= numbern; i+=2)
+    for (int i = 2; i <= numbern; i += 2)
     {
         int i3 = i * i * i;
 
-    //    if (i3 % 2 == 0)
-    //    {
-            Console.Write(i3);
+        Console.Write(i3);
 
-            if (i < (numbern - 1))
-            {
-                Console.Write(", ");
-            }
-
-            else
-            {
-                Console.WriteLine("");
-            }
+        if (i < (numbern - 1))
+        {
+            Console.Write(", ");
         }
-    //}
+
+        else
+        {
+            Console.WriteLine("");
+        }
+    }
 }
